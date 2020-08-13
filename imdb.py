@@ -32,4 +32,5 @@ df = {"Sequence" : movie_sequence, "Name": names, "Rates" :rates,"RealeaseYear":
 movies = pd.DataFrame(data=df)
 
 # save data as csv
-movies.to_csv(r'D:\DOSYLARIM\YAZILIM\PYTHON\egitim\veriCekme\imdb\imdbTop250.csv', index = False, header = True)
+# Enter the path below to the location where you want to save the csv file on your computer.
+movies.to_csv(r'Path where you want to store the exported CSV file\imdbTop250.csv', index = False, header = True)
